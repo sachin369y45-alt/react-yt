@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: black;
+}
+.parent{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar{
+  width: 400px;
+  background-color: rgb(31, 30, 30);
+  padding: 20px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+.navbar img{
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.navbar p{
+  margin: 20px 0px;
+}
+.navbar button{
+  padding: 15px 10px;
+  border: none;
+  border-radius: 15px;
+  
+}
+
+ 

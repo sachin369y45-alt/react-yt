@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+.parent{
+  width: 100%;
+  min-height: 100vh;
+  background-color:black;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card{
+  height: 360px;
+  width: 300px;
+  border: 2px solid rgb(58, 56, 56);
+  border-radius: 25px;
+  background-color: rgb(238, 233, 233);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.card .top{
+  height: 50px;
+      display: flex;
+      /* align-items: center; */
+      justify-content: space-between;
+      margin-bottom: 20px;    
+}
+.card .top img{
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(195, 191, 191);
+  padding: 3px;
+  cursor: pointer;
+}
+.card .top button{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid  rgb(195, 191, 191);
+    padding: 0px 7px;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(84, 83, 83);
+}
+.center{
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.center span{
+  font-size: 10px;
+  color: rgb(141, 139, 139);
+}
+.center p{
+  font-weight: 650;
+  font-size: 20px;
+}
+.center h3{
+  font-weight: 600;
+  gap: 10px;
+}
+ .centerlower{
+   display: flex;
+   
+   gap: 10px;
+  background-color: rgb(213, 211, 211);
+  padding: 3px;
+}
+.center .centerlower h4{
+  font-size: 13px;
+  
+  font-weight: 600;
+  
+}
+.card .bottom{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgb(117, 114, 114);
+  padding-top: 15px;
+
+}
+.card .bottom  button{
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+}
+.card .bottom h3{
+  font-weight: 630;
+}
+.card .bottom p{
+  font-size: 13px;
+  color: rgb(125, 124, 124);
+}
+
+
+
