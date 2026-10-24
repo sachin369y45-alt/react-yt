@@ -3,10 +3,12 @@ import { useState } from 'react';
 
 const App = () => {
   const [data,setData] = useState([]);
+  
   const getapi = async () => {
     console.log('running')
     const {data} =await axios.get('https://picsum.photos/v2/list')
-   
+    console.log(data)
+    console.log(typeof data)
     setData(data);
   }
   return (
